@@ -1,6 +1,6 @@
 import {Routes} from '@angular/router';
-import {LetestComponent} from './child/letest/letest.component';
-import {LechildComponent} from './child/lechild/lechild.component';
+import {LetestComponent} from './letest/letest.component';
+import {LechildComponent} from './letest/lechild/lechild.component';
 
 export const routeConfigChild: Routes = [
   {
