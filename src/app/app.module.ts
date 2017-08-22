@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ParentComponent } from './parent/parent.component';
 import {RouterModule} from '@angular/router';
 import {routeConfig} from './RouterConfig';
 import { ChildrenComponent } from './children/children.component';
@@ -14,7 +13,6 @@ import { AlponchoComponent } from './children/details/edit/alponcho/alponcho.com
 @NgModule({
   declarations: [
     AppComponent,
-    ParentComponent,
     ChildrenComponent,
     DetailsComponent,
     EditComponent,
