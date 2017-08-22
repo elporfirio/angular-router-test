@@ -7,7 +7,7 @@ import {routeConfig} from './RouterConfig';
 import { ChildrenComponent } from './children/children.component';
 import { DetailsComponent } from './children/details/details.component';
 import { EditComponent } from './children/details/edit/edit.component';
-import {ChildModule} from './child/child.module';
+import {ChildModule} from './child-module/child.module';
 import { AlponchoComponent } from './children/details/edit/alponcho/alponcho.component';
 
 @NgModule({
